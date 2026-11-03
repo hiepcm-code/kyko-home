@@ -2,42 +2,16 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KYKO HOME</title>
-<link rel="apple-touch-icon" sizes="180x180" href="https://lh3.googleusercontent.com/d/1Y37YWYmc0IX2MD8OavrDSYuuaIb1w1jx">
+<link rel="apple-touch-icon" href="https://lh3.googleusercontent.com/d/1Y37YWYmc0IX2MD8OavrDSYuuaIb1w1jx">
 <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/d/1Y37YWYmc0IX2MD8OavrDSYuuaIb1w1jx">
 <meta name="apple-mobile-web-app-title" content="KYKO HOME">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<style>
-html,body{margin:0;height:100%;background:#F0FAF8}
-#kh{position:fixed;left:0;top:0;width:100%;height:100%;border:0;display:none}
-#gt{font-family:-apple-system,sans-serif;text-align:center;padding:40px 20px;color:#0B2B28}
-</style>
+<meta http-equiv="refresh" content="0;url=https://script.google.com/macros/s/AKfycbwRpaDuV5yXpK3cxbOFbigfVJRXFbeTmT0gFyIYSOg3AytUJIbyxzgRafaS9Smhs2nW/exec">
+<script>location.replace("https://script.google.com/macros/s/AKfycbwRpaDuV5yXpK3cxbOFbigfVJRXFbeTmT0gFyIYSOg3AytUJIbyxzgRafaS9Smhs2nW/exec");</script>
 </head>
-<body>
-<div id="gt">
-<img src="https://lh3.googleusercontent.com/d/1Y37YWYmc0IX2MD8OavrDSYuuaIb1w1jx" width="120" height="120" alt="KYKO HOME" style="border-radius:26px">
-<h2>KYKO HOME</h2>
-<p><a href="?app=1" style="display:inline-block;background:#0D9488;color:#fff;padding:12px 28px;border-radius:10px;text-decoration:none">Mở ứng dụng</a></p>
-<p style="color:#5A7A76;font-size:14px">Để thêm lối tắt: bấm nút Chia sẻ của Safari, chọn "Thêm vào MH chính" ngay tại trang này.</p>
-</div>
-<iframe id="kh" title="KYKO HOME" allow="clipboard-write"></iframe>
-<script>
-// Trang bọc: mở ứng dụng trong khung toàn màn hình và giữ hộ mã đăng nhập (lưu trữ bên thứ nhất, không bị Safari xóa như trong khung nhúng).
-(function(){
-var APP="https://script.google.com/macros/s/AKfycbwRpaDuV5yXpK3cxbOFbigfVJRXFbeTmT0gFyIYSOg3AytUJIbyxzgRafaS9Smhs2nW/exec",KHOA=['kp_gn','kp_token'];
-function tinCay(o){return /^https:\/\/[a-z0-9-]+\.googleusercontent\.com$/.test(o)}
-function doc(){var v={};KHOA.forEach(function(k){try{var x=localStorage.getItem(k);if(x)v[k]=x}catch(e){}});return v}
-window.addEventListener('message',function(e){
- var d=e.data;if(!d||d.kyko!==1||!tinCay(e.origin))return;
- if(d.t==='lay'){try{e.source.postMessage({kyko:1,t:'gia_tri',v:doc()},e.origin)}catch(x){}}
- else if(d.t==='luu'&&KHOA.indexOf(d.k)>=0){try{if(d.v==null||d.v==='')localStorage.removeItem(d.k);else if(typeof d.v==='string'&&d.v.length<2000)localStorage.setItem(d.k,d.v)}catch(x){}}
-});
-var chay=window.navigator.standalone===true||/[?&]app=1/.test(location.search);
-if(chay){document.getElementById('gt').style.display='none';var f=document.getElementById('kh');f.style.display='block';f.src=APP}
-})();
-</script>
+<body style="font-family:sans-serif;text-align:center;padding:40px">
+<p>Đang mở KYKO HOME...</p>
+<p><a href="https://script.google.com/macros/s/AKfycbwRpaDuV5yXpK3cxbOFbigfVJRXFbeTmT0gFyIYSOg3AytUJIbyxzgRafaS9Smhs2nW/exec">Bấm vào đây nếu trang không tự mở</a></p>
 </body>
 </html>
